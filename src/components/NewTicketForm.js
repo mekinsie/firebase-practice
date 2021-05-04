@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import ReusableForm from "./ReusableForm";
-import Moment from 'moment';
 import { useFirestore } from 'react-redux-firebase';
 
 function NewTicketForm(props){
